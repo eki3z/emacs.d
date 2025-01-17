@@ -630,6 +630,3 @@
 [submodule "d2"]
 	path = lib/d2
 	url = https://github.com/liuyinz/d2.el.git
-[submodule "transient"]
-	path = lib/transient
-	url = https://github.com/magit/transient.git
