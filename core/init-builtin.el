@@ -456,12 +456,13 @@
         transient-hide-during-minibuffer-read t))
 
 (leaf xwidget
+  :commands xwidget-webkit-current-session
   :hook (xwidget-webkit-mode-hook . xwidget-setup)
   :init
-  (setq xwidget-webkit-buffer-name-format "*xwidge: %10T*")
   (defun xwidget-setup ()
     "docstring"
-    (goto-address-mode -1)))
+    (goto-address-mode -1)
+    (setq-local header-line-format nil)))
 
 (leaf copyright
   :init

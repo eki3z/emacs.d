@@ -45,8 +45,7 @@
         ('dired-mode '(:both ("meow" "major-mode" "dired")))
         ('helpful-mode '(:both ("meow" "major-mode" "helpful")))
         ('treesit--explorer-tree-mode '(:both ("meow" "major-mode" "treesit-explorer")))
-        ('xwidget-webkit-mode '(:long ("meow" "shrink-path")
-                                :short ("meow" "buffer-name")))
+        ('xwidget-webkit-mode '(:both ("meow" "major-mode" "xwidget")))
         (_ nil))))
   )
 
