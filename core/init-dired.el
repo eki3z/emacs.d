@@ -106,11 +106,11 @@ A prefix argument means to unmark them instead."
     (interactive)
     (let ((split-string-default-separators ","))
       (if-let* ((files
-                (or (dired-get-marked-files)
-                    (->> (read-string "Input new files names(',' as seperator): ")
-                         (string-split)
-                         (-map #'string-trim)
-                         (-remove #'string-empty-p)))))
+                 (or (dired-get-marked-files)
+                     (->> (read-string "Input new files names(',' as seperator): ")
+                          (split-string)
+                          (-map #'string-trim)
+                          (-remove #'string-empty-p)))))
           (--each files
             (let* ((expanded (expand-file-name it)))
               (if (file-exists-p expanded)
@@ -150,6 +150,8 @@ A prefix argument means to unmark them instead."
           (dired-up-directory)
         (and (not dir-p) (dirvish-subtree-up))
         (dirvish-subtree-toggle))))
+
+  ;; TODO fix dired-goto-file if subtree is on.
 
   :defer-config
 
