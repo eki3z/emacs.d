@@ -464,7 +464,6 @@
 	url = https://github.com/alexluigit/dirvish.git
 	load-path = .
 	load-path = extensions
-	pin = true
 [submodule "consult-dir"]
 	path = lib/consult-dir
 	url = https://github.com/karthink/consult-dir.git
