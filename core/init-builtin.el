@@ -484,6 +484,8 @@
 
 (setq y-or-n-p-use-read-key t)
 
+(setq source-directory "~/Library/Caches/Homebrew/emacs-head@31--git")
+
 (setq use-short-answers t
       use-file-dialog nil
       use-dialog-box nil
