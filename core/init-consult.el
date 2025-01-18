@@ -117,9 +117,27 @@
           :predicate
           (lambda (buffer)
             (with-current-buffer buffer
-                (bound-and-true-p atomic-chrome-edit-mode))))))
+              (bound-and-true-p atomic-chrome-edit-mode))))))
     "Atomic buffer candidate source for `consult-buffer'.")
   (add-to-list 'consult-buffer-sources 'consult--source-atomic)
+
+  ;; xwidget buffers
+  (defvar consult--source-xwidget
+    `(:name     "Xwidget"
+      :narrow   ?x
+      :hidden   t
+      :category buffer
+      :face     dired-warning
+      :state    ,#'consult--buffer-state
+      :items
+      ,(lambda ()
+         (consult--buffer-query
+          :mode 'xwidget-webkit-mode
+          :sort 'visibility
+          :as #'buffer-name
+          :filter nil)))
+    "Xwidget buffer candidate source for `consult-buffer'.")
+  (add-to-list 'consult-buffer-sources 'consult--source-xwidget)
 
   ;; Blob-source
   (defvar consult--source-blob
