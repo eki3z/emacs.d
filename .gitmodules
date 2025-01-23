@@ -580,9 +580,6 @@
 [submodule "zig-ts-mode"]
 	path = lib/zig-ts-mode
 	url = https://codeberg.org/meow_king/zig-ts-mode.git
-[submodule "magit-todos"]
-	path = lib/magit-todos
-	url = https://github.com/alphapapa/magit-todos.git
 [submodule "list-unicode-display"]
 	path = lib/list-unicode-display
 	url = https://github.com/purcell/list-unicode-display.git
@@ -629,3 +626,9 @@
 [submodule "d2"]
 	path = lib/d2
 	url = https://github.com/liuyinz/d2.el.git
+[submodule "emacsql"]
+	path = lib/emacsql
+	url = https://github.com/magit/emacsql.git
+[submodule "org-roam"]
+	path = lib/org-roam
+	url = https://github.com/org-roam/org-roam.git
