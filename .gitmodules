@@ -176,7 +176,7 @@
 	url = https://github.com/davazp/graphql-mode.git
 [submodule "yasnippet-collection"]
 	path = lib/yasnippet-collection
-	url = https://github.com/liuyinz/yasnippet-collection.git
+	url = https://github.com/eki3z/yasnippet-collection.git
 [submodule "rsync-mode"]
 	path = lib/rsync-mode
 	url = https://github.com/r-zip/rsync-mode.git
@@ -200,7 +200,7 @@
 	url = https://github.com/mohkale/consult-yasnippet.git
 [submodule "consult-todo"]
 	path = lib/consult-todo
-	url = https://github.com/liuyinz/consult-todo.git
+	url = https://github.com/eki3z/consult-todo.git
 [submodule "pip-requirements"]
 	path = lib/pip-requirements
 	url = https://github.com/Wilfred/pip-requirements.el.git
@@ -268,7 +268,7 @@
 	url = https://github.com/protesilaos/denote.git
 [submodule "undo-hl"]
 	path = lib/undo-hl
-	url = https://github.com/liuyinz/undo-hl.git
+	url = https://github.com/eki3z/undo-hl.git
 [submodule "hsluv-emacs"]
 	path = lib/hsluv-emacs
 	url = https://github.com/hsluv/hsluv-emacs.git
@@ -352,7 +352,7 @@
 	load-path = src/checkers
 [submodule "flymake-relint"]
 	path = lib/flymake-relint
-	url = https://github.com/liuyinz/flymake-relint.git
+	url = https://github.com/eki3z/flymake-relint.git
 [submodule "lisp-keyword-indent"]
 	path = lib/lisp-keyword-indent
 	url = https://github.com/twlz0ne/lisp-keyword-indent.el.git
@@ -367,7 +367,7 @@
 	url = https://github.com/KarimAziev/igist.git
 [submodule "binky"]
 	path = lib/binky
-	url = https://github.com/liuyinz/binky.el.git
+	url = https://github.com/eki3z/binky.el.git
 [submodule "eros"]
 	path = lib/eros
 	url = https://github.com/xiongtx/eros.git
@@ -382,13 +382,13 @@
 	url = https://github.com/joddie/pcre2el.git
 [submodule "duplexer"]
 	path = lib/duplexer
-	url = https://github.com/liuyinz/duplexer.el.git
+	url = https://github.com/eki3z/duplexer.el.git
 [submodule "tera-mode"]
 	path = lib/tera-mode
 	url = https://github.com/svavs/tera-mode.git
 [submodule "git-cliff"]
 	path = lib/git-cliff
-	url = https://github.com/liuyinz/git-cliff.el.git
+	url = https://github.com/eki3z/git-cliff.el.git
 [submodule "transient-showcase"]
 	path = lib/transient-showcase
 	url = https://github.com/positron-solutions/transient-showcase.git
@@ -403,10 +403,10 @@
 	build-step = borg-update-autoloads
 [submodule "elec-pair-extra"]
 	path = lib/elec-pair-extra
-	url = https://github.com/liuyinz/elec-pair-extra.git
+	url = https://github.com/eki3z/elec-pair-extra.git
 [submodule "flymake-bridge"]
 	path = lib/flymake-bridge
-	url = https://github.com/liuyinz/flymake-bridge.git
+	url = https://github.com/eki3z/flymake-bridge.git
 [submodule "plz"]
 	path = lib/plz
 	url = https://github.com/alphapapa/plz.el.git
@@ -418,7 +418,7 @@
 	url = https://github.com/JonathanHope/mermaid-ts-mode.git
 [submodule "mini-echo"]
 	path = lib/mini-echo
-	url = https://github.com/liuyinz/mini-echo.el.git
+	url = https://github.com/eki3z/mini-echo.el.git
 [submodule "selected"]
 	path = lib/selected
 	url = https://github.com/Kungsgeten/selected.el.git
@@ -433,7 +433,7 @@
 	url = https://github.com/emacs-vs/ts-docstr.git
 [submodule "coercion"]
 	path = lib/coercion
-	url = https://github.com/liuyinz/coercion.el.git
+	url = https://github.com/eki3z/coercion.el.git
 [submodule "dwim-shell-command"]
 	path = lib/dwim-shell-command
 	url = https://github.com/xenodium/dwim-shell-command.git
@@ -493,7 +493,7 @@
 	url = https://github.com/clojure-emacs/clojure-mode.git
 [submodule "mise"]
 	path = lib/mise
-	url = https://github.com/liuyinz/mise.el.git
+	url = https://github.com/eki3z/mise.el.git
 [submodule "typst-preview"]
 	path = lib/typst-preview
 	url = https://github.com/havarddj/typst-preview.el.git
@@ -591,7 +591,7 @@
 	url = https://github.com/skissue/meow-tree-sitter.git
 [submodule "carbon-now"]
 	path = lib/carbon-now
-	url = https://github.com/liuyinz/carbon-now.el
+	url = https://github.com/eki3z/carbon-now.el
 [submodule "aider"]
 	path = lib/aider
 	url = https://github.com/tninja/aider.el.git
@@ -625,7 +625,7 @@
 	url = https://github.com/mathworks/Emacs-MATLAB-Mode.git
 [submodule "d2"]
 	path = lib/d2
-	url = https://github.com/liuyinz/d2.el.git
+	url = https://github.com/eki3z/d2.el.git
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = https://github.com/magit/emacsql.git
