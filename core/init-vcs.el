@@ -74,23 +74,6 @@ Otherwise, behave like `magit-display-buffer-traditional'."
       (magit-display-buffer-traditional buffer)))
   (setq magit-display-buffer-function #'my/magit-display-buffer-fullframe-selected)
 
-  (leaf magit-todos
-    :require t
-    :init
-    (setq magit-todos-ignore-case nil)
-    (setq magit-todos-update 300)
-    (setq magit-todos-keyword-suffix "")
-    ;; respect gitignore files
-    (setq magit-todos-scanner #'magit-todos--scan-with-git-grep)
-
-    :config
-    (magit-todos-mode)
-    ;; BUG not effective
-    ;; (transient-append-suffix #'magit-status-jump
-    ;;   '(0 -1) '[("T" "Todos" magit-todos-jump-to-todos)
-    ;;             ("l" "List todos" magit-todos-list)])
-    )
-
   
   ;;; status
 

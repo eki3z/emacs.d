@@ -71,6 +71,7 @@
 
 (leaf consult-todo
   :init
+  (setq consult-todo-cache-threshold 2)
   (setq consult-todo-narrow
         '((?t . "TODO")
           (?f . "FIXME")
