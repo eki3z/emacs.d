@@ -1,6 +1,6 @@
 ;;; init-key.el --- keybinding for all  -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2021-11-01 00:06:28
 
 ;;; Commentary:

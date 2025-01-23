@@ -13,7 +13,7 @@
 
 ;; don't load site-start.el
 (setq site-run-file nil)
-(setq user-full-name "liuyinz")
+(setq user-full-name "Eki Zhang")
 (setq user-mail-address "liuyinz95@gmail.com")
 
 (advice-add #'display-startup-echo-area-message :override #'ignore)

@@ -1,6 +1,6 @@
 ;;; init-treesit.el --- setup for treesit -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2024-10-18 05:39:38
 
 ;;; Commentary:

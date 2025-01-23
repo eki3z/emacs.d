@@ -1,6 +1,6 @@
 ;;; init-combobulate.el --- summary -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2024-05-30 15:47:01
 
 ;;; Commentary:

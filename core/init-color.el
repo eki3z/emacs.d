@@ -1,6 +1,6 @@
 ;;; init-color.el --- Setup color -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-12-12 06:59:38
 
 ;;; Commentary:

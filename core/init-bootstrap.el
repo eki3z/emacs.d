@@ -1,6 +1,6 @@
 ;;; init-bootstrap.el --- Bootstrap modules -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 
 ;;; Commentary:
 

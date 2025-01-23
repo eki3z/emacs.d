@@ -1,6 +1,6 @@
 ;;; init-benchmark.el --- benchmark lib -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-12-08 20:06:27
 
 ;;; Commentary:

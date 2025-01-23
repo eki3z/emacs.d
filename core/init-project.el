@@ -1,6 +1,6 @@
 ;;; init-project.el --- Setup project -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-12-12 07:19:27
 
 ;;; Commentary:

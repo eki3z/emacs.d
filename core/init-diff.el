@@ -1,6 +1,6 @@
 ;;; init-diff.el --- summary -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2024-05-23 16:57:52
 
 ;;; Commentary:

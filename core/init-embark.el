@@ -1,6 +1,6 @@
 ;;; init-embark.el --- embark setup -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-06-12 20:33:40
 
 ;;; Commentary:

@@ -1,6 +1,6 @@
 ;;; init-duplexer.el --- duplexer setup -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-12-18 20:49:08
 
 ;;; Commentary:

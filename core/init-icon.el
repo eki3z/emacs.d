@@ -1,6 +1,6 @@
 ;;; init-icon.el --- summary -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2024-06-10 15:30:36
 
 ;;; Commentary:

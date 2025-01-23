@@ -1,6 +1,6 @@
 ;;; init-pair.el --- Setup pair editing -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-12-22 17:28:22
 
 ;;; Commentary:

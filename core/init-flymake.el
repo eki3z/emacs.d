@@ -1,6 +1,6 @@
 ;;; init-flymake.el --- Config for lint -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2023-08-01 17:01:50
 
 ;;; Commentary:

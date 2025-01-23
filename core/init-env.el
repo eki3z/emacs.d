@@ -1,6 +1,6 @@
 ;;; init-env.el --- Environment setup -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2023-11-07 15:37:39
 
 ;;; Commentary:

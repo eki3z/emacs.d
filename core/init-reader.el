@@ -1,6 +1,6 @@
 ;;; init-reader.el --- summary -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2023-07-05 02:54:33
 
 ;;; Commentary:

@@ -1,6 +1,6 @@
 ;;; init-theme.el --- config for theme -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2024-10-10 01:31:00
 
 ;;; Commentary:

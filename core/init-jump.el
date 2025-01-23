@@ -1,6 +1,6 @@
 ;;; init-jump.el --- Jumping tool -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-12-22 17:43:48
 
 ;;; Commentary:

@@ -1,6 +1,6 @@
 ;;; init-meow.el --- modal editing -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-02-01 15:30:22
 
 ;;; Commentary:

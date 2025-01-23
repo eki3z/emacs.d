@@ -1,6 +1,6 @@
 ;;; init-spell.el --- Setup spelling -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-12-12 02:07:45
 
 ;;; Commentary:

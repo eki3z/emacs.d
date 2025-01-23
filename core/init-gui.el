@@ -1,6 +1,6 @@
 ;;; init-gui.el --- summary -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-04-15 13:51:24
 
 ;;; Commentary:

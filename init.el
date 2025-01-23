@@ -117,9 +117,10 @@
      'init-web
      'init-vue
      ;; 'init-go
-     'init-markdown
      'init-write
-     ;; 'init-org
+     'init-markdown
+     'init-org
+     ;; 'init-denote
      'init-key
      'init-env
      )))

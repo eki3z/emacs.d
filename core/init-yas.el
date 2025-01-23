@@ -1,6 +1,6 @@
 ;;; init-yas.el --- Setup for yasnippet -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-07-09 08:08:36
 
 ;;; Commentary:

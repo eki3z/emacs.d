@@ -1,6 +1,6 @@
 ;;; init-package.el --- Setup for emacs package development -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2023-11-23 05:06:29
 
 ;;; Commentary:

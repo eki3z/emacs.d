@@ -1,6 +1,6 @@
 ;;; init-font.el --- font setup -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2024-02-09 05:28:51
 
 ;;; Commentary:

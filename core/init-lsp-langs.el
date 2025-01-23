@@ -1,6 +1,6 @@
 ;;; init-lsp-langs.el --- setting for lsp langs -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2024-09-25 14:37:44
 
 ;;; Commentary:

@@ -1,6 +1,6 @@
 ;;; init-go.el --- Go module -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2021-11-08 04:41:54
 
 ;;; Commentary:

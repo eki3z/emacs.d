@@ -1,6 +1,6 @@
 ;;; init-citre.el --- setup for citre -*- lexical-binding: t no-byte-compile: t -*-
 
-;; Author: liuyinz <liuyinz95@gmail.com>
+;; Author: Eki Zhang <liuyinz95@gmail.com>
 ;; Created: 2022-10-02 13:25:59
 
 ;;; Commentary:
