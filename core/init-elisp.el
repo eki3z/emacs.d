@@ -110,11 +110,11 @@
   ([remap describe-function] . helpful-callable)
   ([remap describe-symbol]   . helpful-symbol))
 
-(leaf dash
-  :hook (after-init-hook . global-dash-fontify-mode)
-  :init
-  (with-eval-after-load 'info-look
-    (dash-register-info-lookup)))
+;; (leaf dash
+;;   :hook (after-init-hook . global-dash-fontify-mode)
+;;   :init
+;;   (with-eval-after-load 'info-look
+;;     (dash-register-info-lookup)))
 
 (leaf info-colors
   :hook (Info-selection-hook . info-colors-fontify-node))

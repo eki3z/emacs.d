@@ -7,12 +7,13 @@
   (after-init-hook . global-colorful-mode)
   (colorful-mode-hook . colorful-mode-setup)
   :init
-  (setq colorful-use-prefix t
-        colorful-only-strings t
-        ;; black medium square
-        colorful-prefix-string "\u25FC"
-        colorful-allow-mouse-clicks nil)
-  (setq colorful-extra-color-keyword-functions
+  (setopt css-fontify-colors nil)
+  (setopt colorful-use-prefix t
+          colorful-only-strings t
+          ;; black medium square
+          colorful-prefix-string "\u25FC"
+          colorful-allow-mouse-clicks nil)
+  (setopt colorful-extra-color-keyword-functions
         '((emacs-lisp-mode . colorful-add-color-names)
           ((mhtml-mode html-ts-mode css-mode css-ts-mode) .
            (colorful-add-hsl-colors colorful-add-color-names))

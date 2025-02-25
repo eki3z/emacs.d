@@ -34,6 +34,8 @@
     (interactive)
     (let ((default-directory (expand-file-name "tree-sitter-module/" my/dir-lib)))
       (shell-command (concat "INSTALL_DIR=" (car treesit-extra-load-path)
+                             " EXTENSION_TAGS=1"
+                             " EXTENSION_WIKI_LINK=1"
                              " JOBS=$(nproc) ./batch.sh&"))))
   )
 

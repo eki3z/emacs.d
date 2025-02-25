@@ -59,6 +59,7 @@
   (setq magit-save-repository-buffers 'dontask
         magit-bury-buffer-function #'magit-restore-window-configuration)
   (setq magit-show-long-lines-warning nil)
+  (setopt magit-format-file-function #'magit-format-file-nerd-icons)
 
   ;; Display fullframe buffer in some magit-*-modes
   (defvar magit-modes-display-fullframe-selected
