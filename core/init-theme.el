@@ -35,11 +35,17 @@
     (pcase (car custom-enabled-themes)
       ('doom-tokyo-night
        (custom-set-faces
-        `(font-lock-type-face ((t (:foreground ,(doom-color 'teal)))))
-        `(font-lock-property-name-face ((t (:foreground ,(doom-color 'base4)))))
+        `(font-lock-operator-face ((t (:foreground ,(doom-color 'teal)))))
+        `(font-lock-delimiter-face ((t (:foreground ,(doom-color 'base3)))))
         `(font-lock-number-face ((t (:foreground ,(doom-color 'orange)))))
-        `(font-lock-operator-face ((t (:foreground ,(doom-color 'yellow)))))
-        `(font-lock-delimiter-face ((t (:foreground ,(doom-color 'red)))))
+        `(font-lock-type-face ((t (:foreground ,(doom-color 'yellow) :bold t))))
+        `(font-lock-property-name-face ((t (:foreground ,(doom-color 'dark-blue)))))
+        `(font-lock-variable-name-face ((t (:foreground ,(doom-color 'dark-cyan)))))
+        `(font-lock-escape-face ((t (:foreground ,(doom-color 'magenta)
+                                     :bold t))))
+        ;; `(font-lock-punctuation-face ((t (:foreground ,(doom-color 'red)))))
+        ;; `(font-lock-misc-punctuation-face ((t (:foreground ,(doom-color 'red)))))
+        `(font-lock-regexp-face ((t (:foreground ,(doom-lighten (doom-color 'green) 0.8)))))
         `(secondary-selection ((t (:background ,(doom-darken (doom-color 'violet) 0.7)))))
         `(hl-line ((t (:background ,(doom-darken (doom-color 'blue) 0.75)))))
         `(line-number ((t (:italic nil))))
@@ -50,9 +56,15 @@
         ;; vertico
         `(vertico-current ((t (:background ,(doom-darken (doom-color 'blue) 0.7) :extend t))))
         ;;diff-hl
-        `(diff-hl-change ((t (:background unspecified :inverse-video nil))))
-        `(diff-hl-insert ((t (:background unspecified :inverse-video nil))))
-        `(diff-hl-delete ((t (:background unspecified :inverse-video nil))))
+        `(diff-hl-change ((t (:background unspecified
+                              :inverse-video nil
+                              :italic nil))))
+        `(diff-hl-insert ((t (:background unspecified
+                              :inverse-video nil
+                              :italic nil))))
+        `(diff-hl-delete ((t (:background unspecified
+                              :inverse-video nil
+                              :italic nil))))
         ;; transient
         `(transient-key-exit ((t (:foreground ,(doom-color 'yellow)))))
         `(transient-key-stay ((t (:foreground ,(doom-color 'green)))))
