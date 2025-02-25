@@ -574,9 +574,6 @@
 [submodule "lsp-pyright"]
 	path = lib/lsp-pyright
 	url = https://github.com/emacs-lsp/lsp-pyright.git
-[submodule "markdown-ts-mode"]
-	path = lib/markdown-ts-mode
-	url = https://github.com/LionyxML/markdown-ts-mode.git
 [submodule "zig-ts-mode"]
 	path = lib/zig-ts-mode
 	url = https://codeberg.org/meow_king/zig-ts-mode.git
@@ -589,9 +586,6 @@
 [submodule "meow-tree-sitter"]
 	path = lib/meow-tree-sitter
 	url = https://github.com/skissue/meow-tree-sitter.git
-[submodule "carbon-now"]
-	path = lib/carbon-now
-	url = https://github.com/eki3z/carbon-now.el
 [submodule "aider"]
 	path = lib/aider
 	url = https://github.com/tninja/aider.el.git
@@ -632,3 +626,12 @@
 [submodule "org-roam"]
 	path = lib/org-roam
 	url = https://github.com/org-roam/org-roam.git
+[submodule "llama"]
+	path = lib/llama
+	url = https://github.com/tarsius/llama.git
+[submodule "md"]
+	path = lib/md
+	url = https://github.com/eki3z/md.el.git
+[submodule "treesit-fold"]
+	path = lib/treesit-fold
+	url = https://github.com/emacs-tree-sitter/treesit-fold.git
