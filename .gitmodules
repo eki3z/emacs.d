@@ -81,9 +81,6 @@
 [submodule "grip-mode"]
 	path = lib/grip-mode
 	url = https://github.com/seagle0128/grip-mode.git
-[submodule "markdown-toc"]
-	path = lib/markdown-toc
-	url = https://github.com/ardumont/markdown-toc.git
 [submodule "vundo"]
 	path = lib/vundo
 	url = https://github.com/casouri/vundo.git
@@ -341,9 +338,6 @@
 [submodule "elfeed-webkit"]
 	path = lib/elfeed-webkit
 	url = https://github.com/fritzgrabo/elfeed-webkit.git
-[submodule "treesit-auto"]
-	path = lib/treesit-auto
-	url = https://github.com/renzmann/treesit-auto.git
 [submodule "flymake-collection"]
 	path = lib/flymake-collection
 	url = https://github.com/mohkale/flymake-collection.git
@@ -580,9 +574,6 @@
 [submodule "list-unicode-display"]
 	path = lib/list-unicode-display
 	url = https://github.com/purcell/list-unicode-display.git
-[submodule "abridge-diff"]
-	path = lib/abridge-diff
-	url = https://github.com/jdtsmith/abridge-diff.git
 [submodule "meow-tree-sitter"]
 	path = lib/meow-tree-sitter
 	url = https://github.com/skissue/meow-tree-sitter.git
@@ -629,9 +620,9 @@
 [submodule "llama"]
 	path = lib/llama
 	url = https://github.com/tarsius/llama.git
-[submodule "md"]
-	path = lib/md
-	url = https://github.com/eki3z/md.el.git
 [submodule "treesit-fold"]
 	path = lib/treesit-fold
 	url = https://github.com/emacs-tree-sitter/treesit-fold.git
+[submodule "md"]
+	path = lib/md
+	url = https://github.com/eki3z/md.el.git
