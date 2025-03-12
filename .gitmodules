@@ -605,9 +605,6 @@
 [submodule "easy-escape"]
 	path = lib/easy-escape
 	url = https://github.com/cpitclaudel/easy-escape.git
-[submodule "emacs-matlab-mode"]
-	path = lib/emacs-matlab-mode
-	url = https://github.com/mathworks/Emacs-MATLAB-Mode.git
 [submodule "d2"]
 	path = lib/d2
 	url = https://github.com/eki3z/d2.el.git
