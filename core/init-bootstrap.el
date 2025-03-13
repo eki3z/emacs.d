@@ -44,16 +44,16 @@
 ;; ----------------------- optimization ---------------------------
 
 ;; BUG error happens
-;; (leaf benchmark-init
-;;   :require t
-;;   :hook (after-init-hook . benchmark-init/deactivate)
-;;   :init
-;;   (with-eval-after-load 'benchmark-init-modes
-;;     (keymap-set benchmark-init/tree-mode-map
-;;                 "t" #'benchmark-init/show-durations-tabulated)
-;;     (keymap-set benchmark-init/tabulated-mode-map
-;;                 "t" #'benchmark-init/show-durations-tree))
-;;   (add-hook 'benchmark-init/tabulated-mode-hook #'hl-line-mode))
+(leaf benchmark-init
+  :require t
+  :hook (after-init-hook . benchmark-init/deactivate)
+  :init
+  (with-eval-after-load 'benchmark-init-modes
+    (keymap-set benchmark-init/tree-mode-map
+                "t" #'benchmark-init/show-durations-tabulated)
+    (keymap-set benchmark-init/tabulated-mode-map
+                "t" #'benchmark-init/show-durations-tree))
+  (add-hook 'benchmark-init/tabulated-mode-hook #'hl-line-mode))
 
 (leaf gcmh
   :require t

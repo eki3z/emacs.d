@@ -238,7 +238,14 @@
                    (?v "Variables"  font-lock-variable-name-face)))
           (sh-mode
            :types ((?f "Functions"  font-lock-function-name-face)
-                   (?v "Variables"  font-lock-variable-name-face)))))
+                   (?v "Variables"  font-lock-variable-name-face)))
+          (md-ts-mode
+           :types ((?1 "H1" md-ts-header-1)
+                   (?2 "H2" md-ts-header-2)
+                   (?3 "H3" md-ts-header-3)
+                   (?4 "H4" md-ts-header-4)
+                   (?5 "H5" md-ts-header-5)
+                   (?6 "H6" md-ts-header-6)))))
 
   (leaf consult-dir
     :init

@@ -14,14 +14,19 @@
           colorful-prefix-string "\u25FC"
           colorful-allow-mouse-clicks nil)
   (setopt colorful-extra-color-keyword-functions
-        '((emacs-lisp-mode . colorful-add-color-names)
-          ((mhtml-mode html-ts-mode css-mode css-ts-mode) .
-           (colorful-add-hsl-colors colorful-add-color-names))
-          (latex-mode . colorful-add-latex-colors)
-          colorful-add-hex-colors colorful-add-rgb-colors))
+          '(colorful-add-hex-colors
+            colorful-add-rgb-colors
+            (emacs-lisp-mode . colorful-add-color-names)
+            ((mhtml-mode mhtml-ts-mode html-ts-mode css-mode css-ts-mode) .
+             (colorful-add-css-variables-colors
+              colorful-add-rgb-colors
+              colorful-add-hsl-colors
+              colorful-add-oklab-oklch-colors
+              colorful-add-color-names))
+            (latex-mode . colorful-add-latex-colors)))
 
   ;; TODO support tailwindcss
-  (defun colorful-add-tailwind-colors ())
+  ;; (defun colorful-add-tailwind-colors ())
 
   (defun colorful-mode-setup ()
     "colorful-mode setup."

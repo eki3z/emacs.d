@@ -22,8 +22,10 @@
   )
 
 (leaf mise
+  :hook (after-init-hook . global-mise-mode)
   :init
-  :hook (after-init-hook . global-mise-mode))
+  ;; (setq mise-debug t)
+  )
 
 ;; TODO switch envrc/mise accroding to project
 ;; (defun my/switch-envrc-mise ()

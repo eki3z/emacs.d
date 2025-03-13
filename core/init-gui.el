@@ -7,8 +7,8 @@
 
 ;;; Code:
 
-;; (leaf exec-path-from-shell
-;;   :hook (after-make-graphic-frame-hook . exec-path-from-shell-initialize))
+(leaf exec-path-from-shell
+  :hook (after-make-graphic-frame-hook . exec-path-from-shell-initialize))
 
 ;; REQUIRE pip3 install my-cookies
 ;; (leaf leetcode

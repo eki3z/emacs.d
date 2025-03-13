@@ -2,6 +2,10 @@
 ;;; Commentary:
 ;;; Code:
 
+
+;; tech stack
+;; fastify, s, react, prisma, pg
+
 ;; tree-sitter
 
 
@@ -77,7 +81,7 @@
 
 ;; (leaf jq-ts-mode)
 
-;; (leaf mermaid-ts-mode :mode "\\.\\(mmd\\|mermaid\\)")
+(leaf mermaid-ts-mode :mode "\\.\\(mmd\\|mermaid\\)")
 
 ;; (leaf zig-ts-mode :mode "\\.zig\\'")
 
@@ -102,8 +106,6 @@
   ;;                       (regexp-opt goto-address-uri-schemes t)
   ;;                       (string-replace "," "" thing-at-point-url-path-regexp))))
   )
-
-(leaf d2 :mode ("\\.d2\\'" . d2-ts-mode))
 
 (provide 'init-lang)
 ;;; init-lang.el ends here
