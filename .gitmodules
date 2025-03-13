@@ -605,9 +605,6 @@
 [submodule "easy-escape"]
 	path = lib/easy-escape
 	url = https://github.com/cpitclaudel/easy-escape.git
-[submodule "d2"]
-	path = lib/d2
-	url = https://github.com/eki3z/d2.el.git
 [submodule "emacsql"]
 	path = lib/emacsql
 	url = https://github.com/magit/emacsql.git
